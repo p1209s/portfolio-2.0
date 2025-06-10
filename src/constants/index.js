@@ -91,6 +91,14 @@ const abilities = [
 
 const techStackImgs = [
   {
+    name: "Vite React",
+    imgPath: "/assets/public/images/logos/vite.png",
+  },
+  {
+    name: "GSAP",
+    imgPath: "/assets/public/images/logos/gsap.svg",
+  },
+  {
     name: "HTML",
     imgPath: "/assets/public/images/logos/html.png",
   },
@@ -117,10 +125,6 @@ const techStackImgs = [
   {
     name: "Vercel",
     imgPath: "/assets/public/images/logos/vercel.png",
-  },
-  {
-    name: "GSAP",
-    imgPath: "/assets/public/images/logos/gsap.svg",
   },
 ];
 
