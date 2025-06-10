@@ -4,10 +4,10 @@ import { socialImgs } from "../constants";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-container">
-        <div className="flex flex-col justify-center items-center md:items-start items-center">
+      <div className="footer-container flex justify-center gap-50">
+        {/* <div className="flex flex-col justify-center items-center md:items-start items-center">
           <a href="/">Visit My Blog</a>
-        </div>
+        </div> */}
         <div className="socials">
           {socialImgs.map((img) => (
             <a className="icon" target="_blank" href={img.url} key={img.url}>

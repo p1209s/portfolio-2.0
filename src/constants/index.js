@@ -11,10 +11,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 const words = [
@@ -91,114 +91,166 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    name: "HTML",
+    imgPath: "/assets/public/images/logos/html.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "CSS",
+    imgPath: "/assets/public/images/logos/css.png",
   },
   {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    name: "GitHub",
+    imgPath: "/assets/public/images/logos/github.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "GitLab",
+    imgPath: "/assets/public/images/logos/gitlab.png",
   },
   {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    name: "Netlify",
+    imgPath: "/assets/public/images/logos/netlify.png",
+  },
+  {
+    name: "Postman",
+    imgPath: "/assets/public/images/logos/postman.png",
+  },
+  {
+    name: "Vercel",
+    imgPath: "/assets/public/images/logos/vercel.png",
+  },
+  {
+    name: "GSAP",
+    imgPath: "/assets/public/images/logos/gsap.svg",
   },
 ];
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "JavaScript",
+    modelPath: "/models/javascript-transformed.glb",
+    scale: 0.2,
+    rotation: [0, 1.5, 1.5],
+  },
+  {
+    name: "ReactJS",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
+  // {
+  //   name: "Python",
+  //   modelPath: "/models/python-transformed.glb",
+  //   scale: 0.8,
+  //   rotation: [0, 0, 0],
+  // },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
+    name: "NodeJS",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "ThreeJS",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
 ];
 
+// const expCards = [
+//   {
+//     review:
+//       "Priyank brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+//     imgPath: "/images/exp1.png",
+//     logoPath: "/images/logo1.png",
+//     title: "Frontend Developer",
+//     date: "January 2023 - Present",
+//     responsibilities: [
+//       "Developed and maintained user-facing features for the Hostinger website.",
+//       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+//       "Optimized web applications for maximum speed and scalability.",
+//     ],
+//   },
+//   {
+//     review:
+//       "Priyank’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+//     imgPath: "/images/exp2.png",
+//     logoPath: "/images/logo2.png",
+//     title: "Full Stack Developer",
+//     date: "June 2020 - December 2023",
+//     responsibilities: [
+//       "Led the development of Docker's web applications, focusing on scalability.",
+//       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
+//       "Contributed to open-source projects that were used with the Docker ecosystem.",
+//     ],
+//   },
+//   {
+//     review:
+//       "Priyank’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+//     imgPath: "/images/exp3.png",
+//     logoPath: "/images/logo3.png",
+//     title: "React Native Developer",
+//     date: "March 2019 - May 2020",
+//     responsibilities: [
+//       "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+//       "Improved app performance and user experience through code optimization and testing.",
+//       "Coordinated with the product team to implement features based on feedback.",
+//     ],
+//   },
+// ];
+
 const expCards = [
   {
-    review:
-      "Priyank brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    logoPath: "/assets/public/images/logo4.png",
+    title: "Front End Engineer - Vosyn Inc.",
+    date: "Feb 2024 - Mar 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built responsive and scalable user interfaces using ReactJS, TypeScript, and Tailwind CSS.",
+      "Enhanced user experience by refining layout structure and improving navigation logic.",
+      "Improved internal analytics platform to streamline task workflows and usability.",
     ],
   },
   {
-    review:
-      "Priyank’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    logoPath: "/assets/public/images/logo5.png",
+    title: "Frontend Developer - TOPS Technologies Pvt. Ltd.",
+    date: "May 2021 - Aug 2022",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review:
-      "Priyank’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed modern web applications using ReactJS, JavaScript, and SCSS.",
+      "Collaborated with backend teams to integrate RESTful APIs into the frontend.",
+      "Optimized application performance with lazy loading and code splitting.",
     ],
   },
 ];
 
+// const expLogos = [
+//   {
+//     name: "logo1",
+//     imgPath: "/images/logo1.png",
+//   },
+//   {
+//     name: "logo2",
+//     imgPath: "/images/logo2.png",
+//   },
+//   {
+//     name: "logo3",
+//     imgPath: "/images/logo3.png",
+//   },
+// ];
+
 const expLogos = [
   {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
+    name: "logo4",
+    imgPath: "/images/logo4.png",
   },
   {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
-  },
-  {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
+    name: "logo5",
+    imgPath: "/images/logo5.png",
   },
 ];
 
@@ -248,25 +300,30 @@ const testimonials = [
 ];
 
 const socialImgs = [
-  {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
-  },
+  // {
+  //   name: "insta",
+  //   url: "https://www.instagram.com/",
+  //   imgPath: "/images/insta.png",
+  // },
+  // {
+  //   name: "fb",
+  //   url: "https://www.facebook.com/",
+  //   imgPath: "/images/fb.png",
+  // },
+  // {
+  //   name: "x",
+  //   url: "https://www.x.com/",
+  //   imgPath: "/images/x.png",
+  // },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/priyankvshah",
     imgPath: "/images/linkedin.png",
+  },
+  {
+    name: "github",
+    url: "https://github.com/p1209s",
+    imgPath: "/assets/public/images/github.png",
   },
 ];
 
