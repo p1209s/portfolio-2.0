@@ -4,7 +4,7 @@ A visually engaging 3D portfolio built with **React**, **Three.js**, and **Vite*
 
 ## 📸 Preview
 
-[![Live Demo](https://shah-priyank.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://shah-priyank.netlify.app)
 
 ## 🧰 Tech Stack
 
