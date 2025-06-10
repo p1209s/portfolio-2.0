@@ -92,39 +92,27 @@ const abilities = [
 const techStackImgs = [
   {
     name: "Vite React",
-    imgPath: "/assets/public/images/logos/vite.png",
+    imgPath: "/images/logos/vite.png",
   },
   {
     name: "GSAP",
-    imgPath: "/assets/public/images/logos/gsap.svg",
+    imgPath: "/images/logos/gsap.svg",
   },
   {
     name: "HTML",
-    imgPath: "/assets/public/images/logos/html.png",
+    imgPath: "/images/logos/html.png",
   },
   {
     name: "CSS",
-    imgPath: "/assets/public/images/logos/css.png",
+    imgPath: "/images/logos/css.png",
   },
   {
     name: "GitHub",
-    imgPath: "/assets/public/images/logos/github.png",
-  },
-  {
-    name: "GitLab",
-    imgPath: "/assets/public/images/logos/gitlab.png",
+    imgPath: "/images/logos/github.png",
   },
   {
     name: "Netlify",
-    imgPath: "/assets/public/images/logos/netlify.png",
-  },
-  {
-    name: "Postman",
-    imgPath: "/assets/public/images/logos/postman.png",
-  },
-  {
-    name: "Vercel",
-    imgPath: "/assets/public/images/logos/vercel.png",
+    imgPath: "/images/logos/netlify.png",
   },
 ];
 
@@ -211,7 +199,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    logoPath: "/assets/public/images/logo4.png",
+    logoPath: "/images/logo4.png",
     title: "Front End Engineer - Vosyn Inc.",
     date: "Feb 2024 - Mar 2025",
     responsibilities: [
@@ -221,7 +209,7 @@ const expCards = [
     ],
   },
   {
-    logoPath: "/assets/public/images/logo5.png",
+    logoPath: "/images/logo5.png",
     title: "Frontend Developer - TOPS Technologies Pvt. Ltd.",
     date: "May 2021 - Aug 2022",
     responsibilities: [
@@ -327,7 +315,12 @@ const socialImgs = [
   {
     name: "github",
     url: "https://github.com/p1209s",
-    imgPath: "/assets/public/images/github.png",
+    imgPath: "/images/github.png",
+  },
+  {
+    name: "netlify",
+    url: "https://app.netlify.com/teams/p1209s/projects",
+    imgPath: "/images/netlify.png",
   },
 ];
 
