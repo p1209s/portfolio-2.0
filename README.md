@@ -1,12 +1,66 @@
-# React + Vite
+# 🌐 Priyank Shah's 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually engaging 3D portfolio built with **React**, **Three.js**, and **Vite** — showcasing my work, skills, and passion for creative frontend development.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Live Demo](https://shah-priyank.netlify.app)
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19**
+- **Three.js + React Three Fiber + Drei**
+- **GSAP** – Scroll-triggered animations
+- **Tailwind CSS** – Responsive styling
+- **Vite** – Lightning-fast dev environment
+
+## 🎯 Features
+
+- ✨ Animated 3D models & transitions
+- 💡 Realistic lighting, shadows, and reflections
+- 📱 Fully responsive across devices
+- 📩 Contact form using EmailJS
+- 🧩 Modular and clean code structure
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Git
+- Node.js & npm
+
+### Clone and Run
+
+```bash
+git clone https://github.com/p1209s/portfolio-2.0.git
+cd portfolio-2.0
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173` to see it in action.
+
+### Environment Variables
+
+Create a `.env` file in the root:
+
+```env
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+## 🤝 About Me
+
+I'm Priyank Shah, a passionate frontend developer with an eye for design and interactivity.  
+Currently seeking **Frontend Developer** roles or **collaborations** in Ontario or remotely.
+
+🔗 [Portfolio Website](https://shah-priyank.netlify.app)  
+🔗 [LinkedIn](https://www.linkedin.com/in/priyankvshah)  
+📧 [Email](mailto:priyankshah53310@gmail.com)
+
+---
+
+## 🙏 Acknowledgements
+
+Big thanks to [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) for the original tutorial and guidance that inspired this build.
